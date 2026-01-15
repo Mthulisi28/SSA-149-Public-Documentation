@@ -8,3 +8,4 @@
 [$ (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] NODE_SSA-149: Internal clock synchronized. Zero-discretion logic stable.
 [$ (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] NODE_SSA-149: Handshake Asset V1.0 Deployed. Autonomous Delivery Active.
 [$ (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] NODE_SSA-149: Automation complete. Funnels live. Handshake verified. Entering Autonomous Cycle.
+[$ (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] NODE_SSA-149: Merchant of Record (LemonSqueezy) Initialization Submitted. Currency: USD.
