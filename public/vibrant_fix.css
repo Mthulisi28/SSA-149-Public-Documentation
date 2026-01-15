@@ -1,0 +1,6 @@
+:root { --machine-glow: #00ff41; --machine-orbit: #00f2ff; }
+.orbit { 
+    animation: machine-rotate 20s linear infinite !important;
+    filter: drop-shadow(0 0 15px var(--machine-orbit));
+    opacity: 1 !important;
+}

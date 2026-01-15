@@ -1,0 +1,10 @@
+.global-machine-container {
+    filter: saturate(1.5) brightness(1.2);
+    background: radial-gradient(circle, #001a33 0%, #000000 100%) !important;
+}
+.orbit {
+    animation: rotate 30s linear infinite !important;
+    border: 1px solid rgba(0, 242, 255, 0.5) !important;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.2) !important;
+}
+@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
