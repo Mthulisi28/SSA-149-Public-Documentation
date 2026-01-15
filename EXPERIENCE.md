@@ -6,3 +6,7 @@
 - Reduced manual processing from 15hrs to 45mins via PowerShell.
 - Recovered 12% revenue leakage via rule-based recovery logic.
 - Optimized GCP nodes for -overhead scalability.
+### AUDITOR ACHIEVEMENTS:
+- Identified 5% net settlement loss via logic gap audits.
+- Ensured 100% accuracy in multi-currency capital distribution.
+- Implemented real-time leakage prevention via monitoring scripts.
