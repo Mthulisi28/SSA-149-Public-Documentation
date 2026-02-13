@@ -1,0 +1,298 @@
+/* ═══════════════════════════════════════════════════════════
+   SOVEREIGN V4 ULTRA: YELLOW ANNIHILATION COMPLETE
+   Premium AI Execution - Machine Aesthetic Locked
+   ═══════════════════════════════════════════════════════════ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Courier New', monospace;
+  position: relative;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ORBIT SYSTEM: ELECTRIC CYAN AUTHORITY
+   ═══════════════════════════════════════════════════════════ */
+.orbit {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 242, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+  animation: rotate 12s linear infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.orbit-1 {
+  width: 300px;
+  height: 300px;
+}
+
+.orbit-2 {
+  width: 450px;
+  height: 450px;
+  animation-duration: 18s;
+  animation-direction: reverse;
+}
+
+.orbit-3 {
+  width: 600px;
+  height: 600px;
+  animation-duration: 24s;
+}
+
+@keyframes rotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   CARD: SOVEREIGN MACHINE (YELLOW PERMANENTLY BANNED)
+   ═══════════════════════════════════════════════════════════ */
+.card {
+  position: relative;
+  z-index: 10;
+  background: rgba(10, 10, 10, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 242, 255, 0.25);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 520px;
+  width: 90%;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* CRITICAL: HOVER STATE - ZERO YELLOW TOLERANCE */
+.card:hover {
+  background: rgba(10, 10, 10, 0.98) !important;
+  border-color: rgba(0, 242, 255, 0.6) !important;
+  box-shadow: 0 0 50px rgba(0, 242, 255, 0.3) !important;
+  transform: translateY(-8px);
+}
+
+/* ABSOLUTE OVERRIDE: Kill any yellow background */
+.card:hover,
+.card:hover *,
+.card:hover::before,
+.card:hover::after {
+  background-color: transparent !important;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   TYPOGRAPHY: MACHINE LANGUAGE
+   ═══════════════════════════════════════════════════════════ */
+.card h1 {
+  color: #00f2ff !important;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.card > p {
+  color: #FFD700 !important;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.25);
+  letter-spacing: 1px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SYSTEM EXPECTATIONS BOX
+   ═══════════════════════════════════════════════════════════ */
+.system-expectations {
+  background: rgba(0, 0, 0, 0.6) !important;
+  border: 1px solid rgba(0, 242, 255, 0.35);
+  border-left: 4px solid #00f2ff;
+  padding: 25px;
+  margin: 25px 0;
+  text-align: left;
+  border-radius: 4px;
+}
+
+.system-expectations h3 {
+  color: #00f2ff !important;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px rgba(0, 242, 255, 0.35);
+  text-transform: uppercase;
+}
+
+.system-expectations ol {
+  color: #FFD700 !important;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  padding-left: 25px;
+  margin: 0;
+  list-style-position: outside;
+}
+
+.system-expectations ol li {
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+.system-expectations ol li strong {
+  color: #FFD700 !important;
+  font-weight: 700;
+}
+
+/* Settlement Notice */
+.settlement-notice {
+  color: rgba(255, 215, 0, 0.65) !important;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  margin-top: 18px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.18);
+  line-height: 1.5;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   BUTTON: ELITE STATUS (YELLOW BLOCK ABSOLUTELY DESTROYED)
+   ═══════════════════════════════════════════════════════════ */
+.button {
+  display: inline-block !important;
+  margin-top: 30px;
+  background: transparent !important;
+  border: 2px solid #FFD700 !important;
+  color: #FFD700 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 16px 40px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* HOVER: Premium glow, ZERO YELLOW BACKGROUND */
+.button:hover {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 215, 0, 0.05)) !important;
+  color: #FFD700 !important;
+  border-color: #FFD700 !important;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.5),
+              inset 0 0 20px rgba(255, 215, 0, 0.1) !important;
+  transform: translateY(-3px) scale(1.02);
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+/* ACTIVE STATE: Subtle press effect */
+.button:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   MOBILE OPTIMIZATION
+   ═══════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .orbit-1 { width: 220px; height: 220px; }
+  .orbit-2 { width: 330px; height: 330px; }
+  .orbit-3 { width: 440px; height: 440px; }
+  
+  .card {
+    padding: 32px 24px;
+    max-width: 92vw;
+  }
+  
+  .card h1 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  
+  .card > p {
+    font-size: 0.95rem;
+  }
+  
+  .system-expectations h3 {
+    font-size: 0.85rem;
+  }
+  
+  .system-expectations ol {
+    font-size: 0.85rem;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .orbit-1 { width: 160px; height: 160px; }
+  .orbit-2 { width: 240px; height: 240px; }
+  .orbit-3 { width: 320px; height: 320px; }
+  
+  .card h1 {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+  }
+  
+  .card > p {
+    font-size: 0.9rem;
+  }
+  
+  .system-expectations {
+    padding: 20px;
+  }
+  
+  .system-expectations ol {
+    font-size: 0.8rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   ACCESSIBILITY
+   ═══════════════════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  .orbit,
+  .card:hover,
+  .button:hover {
+    animation: none;
+    transform: none;
+  }
+}
+
+/* Focus states for keyboard navigation */
+.button:focus {
+  outline: 2px solid #00f2ff;
+  outline-offset: 4px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   NUCLEAR OPTION: Global yellow background killer
+   ═══════════════════════════════════════════════════════════ */
+* {
+  /* Prevent any element from having yellow/gold solid backgrounds on hover */
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Kill any injected yellow backgrounds */
+[style*="background: rgb(255, 215, 0)"],
+[style*="background-color: rgb(255, 215, 0)"],
+  background: transparent !important;
+}

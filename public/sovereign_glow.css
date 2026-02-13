@@ -1,10 +1,42 @@
-.global-machine-container {
-    filter: saturate(1.5) brightness(1.2);
-    background: radial-gradient(circle, #001a33 0%, #000000 100%) !important;
+/* RESET ALL RENDERING NOISE */
+* { filter: none !important; backdrop-filter: none !important; mix-blend-mode: normal !important; }
+
+body { 
+    background: #000000 !important; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    overflow: hidden; 
 }
+
+/* THE ISOLATED ORBIT - SINGLE GLOW SYSTEM */
 .orbit {
-    animation: rotate 30s linear infinite !important;
-    border: 1px solid rgba(0, 242, 255, 0.5) !important;
-    box-shadow: 0 0 20px rgba(0, 242, 255, 0.2) !important;
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    border: 3px solid #00f2ff !important;
+    background: transparent !important;
+    opacity: 1 !important;
+    /* Box-shadow only - No Filter stacking */
+    box-shadow: 
+        0 0 25px rgba(0, 242, 255, 0.9), 
+        0 0 60px rgba(0, 242, 255, 0.6) !important;
+    animation: spin 12s linear infinite !important;
 }
-@keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.center-card {
+    z-index: 10;
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}

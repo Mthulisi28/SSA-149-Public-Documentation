@@ -1,0 +1,21 @@
+/* Force the central card to appear and glow */
+.global-machine-card, #main-content {
+    display: flex !important;
+    visibility: visible !important;
+    z-index: 9999 !important;
+    opacity: 1 !important;
+    filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.6)) !important;
+}
+
+/* Fix the 'Dusty' Orbit with High-Saturation Cyan */
+.orbit {
+    border: 2px solid #00f2ff !important;
+    box-shadow: 0 0 50px rgba(0, 242, 255, 0.5) !important;
+    animation: rotate 12s linear infinite !important;
+}
+
+/* Remove the 'Dust' (Blur/Low Contrast) */
+body {
+    filter: contrast(1.2) saturate(1.3) !important;
+    background: radial-gradient(circle, #000810 0%, #000000 100%) !important;
+}

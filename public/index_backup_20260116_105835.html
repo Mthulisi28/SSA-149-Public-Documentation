@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL MACHINE | SSA-149</title>
+    <style>
+        body { background: #0a0a0a; margin: 0; overflow: hidden; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: 'Courier New', monospace; color: #00f2ff; }
+        .orbit { position: absolute; border-radius: 50%; border: 1px solid rgba(0, 242, 255, 0.4); animation: rotate 15s linear infinite; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; }
+        .orbit-1 { width: 400px; height: 400px; }
+        .orbit-2 { width: 600px; height: 600px; animation-duration: 25s; animation-direction: reverse; }
+        @keyframes rotate { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
+        
+        .card { position: relative; z-index: 10; background: rgba(10, 10, 10, 0.95); border: 1px solid rgba(0, 242, 255, 0.3); border-radius: 8px; padding: 40px; max-width: 500px; text-align: center; transition: 0.3s; }
+        .card:hover { border-color: #00f2ff; box-shadow: 0 0 30px rgba(0, 242, 255, 0.2); }
+        
+        h1 { font-size: 2.2rem; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 20px; }
+        p { color: #FFD700; line-height: 1.6; margin-bottom: 20px; }
+        
+        .button { display: inline-block; padding: 15px 30px; border: 1px solid #FFD700; color: #FFD700; text-decoration: none; text-transform: uppercase; letter-spacing: 2px; font-weight: bold; transition: 0.3s; }
+        .button:hover { background: rgba(255, 214, 0, 0.1) !important; box-shadow: 0 0 20px #FFD700; color: #FFD700 !important; }
+    </style>
+    <style>
+        button, a, input, [role="button"] {
+            background: transparent !important;
+            background-color: transparent !important;
+            box-shadow: none !important;
+        }
+        button:hover, a:hover, input:hover, [role="button"]:hover {
+            background: rgba(255, 215, 0, 0.08) !important;
+            box-shadow: 0 0 12px rgba(255, 215, 0, 0.6) !important;
+        }
+        button:focus, button:focus-visible, button:active,
+        a:focus, a:focus-visible, a:active,
+        input:focus, input:active,
+        [role="button"]:focus, [role="button"]:active {
+            background: rgba(255, 215, 0, 0.08) !important;
+            box-shadow: 0 0 12px rgba(255, 215, 0, 0.6) !important;
+            outline: none !important;
+        }
+    </style>
+</head>
+<body>
+<style>
+    /* ATOMIC OVERRIDE: KILL ALL BROWSER YELLOW */
+    .button, a, a *, button * {
+        background-color: transparent !important;
+        background: transparent !important;
+        outline: none !important;
+        -webkit-tap-highlight-color: transparent !important;
+    }
+    
+    /* RE-ESTABLISH SOVEREIGN HOVER */
+    .button:hover, a:hover {
+        background: rgba(255, 215, 0, 0.05) !important;
+        box-shadow: 0 0 20px rgba(255, 215, 0, 0.4) !important;
+        color: #FFD700 !important;
+    }
+</style>
+    <style>
+        /* TARGETS ONLY DEVICES WITH A MOUSE (LAPTOPS/DESKTOPS) */
+        @media (hover: hover) {
+            .card:hover, .button:hover, a:hover {
+                background-color: rgba(10, 10, 10, 0.95) !important; /* Force Dark */
+                background: rgba(10, 10, 10, 0.95) !important;
+                color: #FFD700 !important;
+                box-shadow: 0 0 30px rgba(0, 242, 255, 0.2) !important;
+            }
+        }
+        
+        /* KILL THE FOCUS BOX FOR GOOD */
+        *:focus, *:focus-visible {
+            outline: none !important;
+            background-color: transparent !important;
+        }
+    </style>
+    <div class="orbit orbit-1"></div>
+    <div class="orbit orbit-2"></div>
+    <div class="card">
+        <h1>GLOBAL MACHINE</h1>
+        <p>DETERMINISTIC EXECUTION ENVIRONMENT<br>SETTLEMENT REQUIRED FOR ACCESS</p>
+        <a href="https://quickreserve.lemonsqueezy.com/buy/735c00e1-455b-4375-8015-f62f33f076c8" class="button" onmouseover="this.style.backgroundColor=`rgba(10,10,10,0.95)`;this.style.background=`rgba(10,10,10,0.95)`" onmousedown="this.style.backgroundColor=`rgba(10,10,10,0.95)`" style="background-color: transparent !important; background: transparent !important;">Initiate Handshake</a>
+    </div>
+    <script>
+        // TERMINAL YELLOW ELIMINATION
+        const purgeYellow = (e) => {
+            const el = e.target;
+            const style = window.getComputedStyle(el);
+            if (style.backgroundColor.includes('255, 215, 0') || style.backgroundColor === 'yellow') {
+                el.style.setProperty('background-color', 'transparent', 'important');
+                el.style.setProperty('background', 'transparent', 'important');
+            }
+        };
+
+        // Listen for all interactions
+        ['mouseover', 'mousedown', 'focusin', 'touchstart'].forEach(evt => {
+            document.addEventListener(evt, purgeYellow, true);
+        });
+        
+        console.log("Sovereign Machine: Yellow Kill-Switch Active.");
+    </script>
+</body>
+</html>
+
+
+
+
+
